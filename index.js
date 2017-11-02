@@ -11,7 +11,7 @@ require("./scroll.css");
   *          update
   */
   // 建议： 后面版本添加一个接口，在执行动画的时候保持住状态，不修改值，动画结束后再修改值
-var eeesysScrollEventModule = (function() {
+var scrollEventModule = (function() {
     var log = console.log.bind(console)
     var sameTimeEvent = false;
     return function(config) {
@@ -489,4 +489,4 @@ var eeesysScrollEventModule = (function() {
         return my;
     }
 })();
-module.exports = eeesysScrollEventModule;
+module.exports = scrollEventModule;

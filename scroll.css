@@ -1,10 +1,10 @@
-.eeesys-scroll-container {
+.scroll-container {
 	overflow: hidden;
 }
-.eeesys-scroll-content {
+.scroll-content {
 	position: relative;
 }
-.eeesys-scroll-content:before {
+.scroll-content:before {
 	position: absolute;
 	color: #666;
 	content: attr(stateName);
@@ -15,7 +15,7 @@
 	font-size: 18px;
 	font-family: "黑体";
 }
-.eeesys-scroll-content:after {
+.scroll-content:after {
 	position: absolute;
 	color: #666;
 	content: attr(stateNameDown);
